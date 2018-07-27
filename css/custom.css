@@ -1,13 +1,26 @@
-.container {
-  max-width: 800px; }
+.section {
+  padding: 8rem 0 7rem;
+}
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .background {
   background-image: url('../images/header.jpg');
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: #fff;
 }
 .header {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
   margin-top: 6rem;
-  text-align: center; }
+}
+
+/* Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  max-width: 800px; }
+
 .value-prop {
   margin-top: 1rem; }
 .value-props {
@@ -86,6 +99,10 @@
   right: 5px;
   bottom: 5px;
   left: 5px; }
+.navbar {
+  display: none; }
+
+
 .navbar {
   display: none; }
 
