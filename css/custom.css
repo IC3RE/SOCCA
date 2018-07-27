@@ -1,5 +1,10 @@
 .container {
   max-width: 800px; }
+.background {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  color: #fff;
+}
 .header {
   margin-top: 6rem;
   text-align: center; }
