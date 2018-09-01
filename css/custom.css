@@ -1,17 +1,14 @@
-.section {
-  padding: 8rem 0 7rem;
-}
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .background {
+  padding: 1rem 0 1rem;
   background-image: url('../images/header.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 }
 .header {
   text-align: center;
-  margin: auto;
   max-width: 800px;
   margin-top: 6rem;
 }
